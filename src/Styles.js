@@ -16,9 +16,10 @@ const useStyles = makeStyles((theme)=>({
       // flexDirection:"column"
    },
    loginHero:{
-      width:"450px",
-      height:"560px",
-      // backgroundColor:"green"
+      // width:"560px",
+      // height:"560px",
+      position:"relative",
+      
    },
    imageBox:{
       height:"100%",
@@ -28,7 +29,6 @@ const useStyles = makeStyles((theme)=>({
       display:"flex",
       flexDirection:"column",
       rowGap:"20px",
-
    },
    formCard:{
       width:"350px",
