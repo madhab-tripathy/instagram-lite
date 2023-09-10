@@ -12,23 +12,25 @@ const useStyles = makeStyles((theme)=>({
       display:"flex",
       justifyContent:"center",
       alignItems: "center",
-      columnGap:"30px"
       // flexDirection:"column"
    },
    loginHero:{
-      // width:"560px",
+      // width:"500px",
       // height:"560px",
-      position:"relative",
+      
       
    },
    imageBox:{
-      height:"100%",
-      width:"100%",
+      height:"90%",
+      width:"90%",
+      // margin:"0 50px",
    },
    loginGrid:{
       display:"flex",
       flexDirection:"column",
-      rowGap:"20px",
+      justifyContent:"center",
+      alignItems: "center",
+      
    },
    formCard:{
       width:"350px",
@@ -39,7 +41,7 @@ const useStyles = makeStyles((theme)=>({
    },
    bottomCard:{
       width:"350px",
-      height:"70px",
+      // height:"60px",
       border: "1px solid #ccc",
       boxShadow:"none",
       borderRadius:"0",
@@ -54,10 +56,11 @@ const useStyles = makeStyles((theme)=>({
    },
    cardContent:{
       display:"flex",
-      justifyContent:"center",
+      justifyContent:"space-around",
       alignItems:"center",
-
+      flexDirection:"column",
    }
+
 
 
 

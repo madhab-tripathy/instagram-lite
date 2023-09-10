@@ -1,0 +1,44 @@
+.css-46bh2p-MuiCardContent-root{
+    height:100%;
+}
+.css-46bh2p-MuiCardContent-root:last-child{
+    /* padding-bottom: 0 !important; */
+
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    height: 0.1rem !important;
+    padding:16.8px 14px !important;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    top: -8px !important;
+    /* bottom: 24 !important; */
+}
+.form-group{
+    display: flex !important;
+    flex-direction: column !important;
+    row-gap: 14px;
+}
+.or-option-sec{
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    display: flex !important;
+}
+.or-option{
+    position: absolute;
+    top: 0; 
+    width:40%;
+    border-top: 1px solid #ccc;
+}
+.or-option.line2{
+    right: 0 !important;
+}
+.or-option-sec span:nth-child(2){
+    position: absolute;
+    left: 44%;
+    bottom: -12px;
+}
+.link-style{
+    text-decoration: none;
+    color:#1976d2;
+}
